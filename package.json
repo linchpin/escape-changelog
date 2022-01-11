@@ -1,5 +1,5 @@
 {
-  "name": "@linchpin/escape-changelog",
+  "name": "@linchpin/escape-markdown-for-json",
   "version": "1.0.0",
   "description": "Escape Changelog.MD Entry for JSON",
   "main": "index.js",
