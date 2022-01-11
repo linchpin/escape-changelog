@@ -1,7 +1,7 @@
 {
-  "name": "javascript-action",
+  "name": "@linchpin/escape-changelog",
   "version": "1.0.0",
-  "description": "JavaScript Action Template",
+  "description": "Escape Changelog.MD Entry for JSON",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
@@ -11,25 +11,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/javascript-action.git"
+    "url": "git+https://github.com/linchpin/escape-markdown-for-json.git"
   },
   "keywords": [
-    "GitHub",
+    "Markdown",
     "Actions",
-    "JavaScript"
+    "JavaScript",
+    "Changelog"
   ],
-  "author": "",
+  "author": "Linchpin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/actions/javascript-action/issues"
+    "url": "https://github.com/linchpin/escape-markdown-for-json/issues"
   },
-  "homepage": "https://github.com/actions/javascript-action#readme",
+  "homepage": "https://github.com/linchpin/escape-markdown-for-json/",
   "dependencies": {
-    "@actions/core": "^1.2.5"
+    "@actions/core": "^1.6.0"
   },
   "devDependencies": {
-    "@vercel/ncc": "^0.31.1",
-    "eslint": "^8.0.0",
-    "jest": "^27.2.5"
+    "@vercel/ncc": "^0.33.1",
+    "eslint": "^8.6.0",
+    "jest": "^27.4.7"
   }
 }
