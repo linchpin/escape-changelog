@@ -1684,7 +1684,7 @@ async function run() {
     let changelog = core.getInput('markdown');
         changelog = changelog.replace(/\\n/g, "\\n")
                               .replace(/\\'/g, "\\'")
-                              .replace(/\\"/g, '\\"')
+                              .replace(/[\\"']/g, '\\"')
                               .replace(/\\&/g, "\\&")
                               .replace(/\\r/g, "\\r")
                               .replace(/\\t/g, "\\t")
